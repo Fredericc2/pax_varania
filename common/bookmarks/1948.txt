@@ -25,25 +25,5 @@ bookmarks = {
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
-
-		# minors from DLC ####
-		"POL"={
-			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				deterrence
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
-			}
-		}
-
-		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
-		}
 	}
 }
