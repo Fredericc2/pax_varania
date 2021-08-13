@@ -2,6 +2,7 @@ state = {
 	id = 19
 	name = "STATE_19"
 	manpower = 798000
+	state_category = town
 
 	history = {
 		owner = VAR
