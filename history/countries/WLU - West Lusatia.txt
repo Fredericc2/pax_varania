@@ -52,22 +52,6 @@ set_convoys = 20
 	}
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ELU
-		autonomous_state = autonomy_dominion
-	else = {
-		puppet = ELU
-		}
-	}
-}
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1946.1.1"
