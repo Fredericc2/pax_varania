@@ -1,13 +1,12 @@
 state = {
-	id = 15
-	name = "STATE_15"
-	manpower = 812000
-	state_category = rural
+	id = 27
+	name = "STATE_27"
+	manpower = 468600
 
 	history = {
-		owner = VAR
+		owner = WMC
 		victory_points = {
-			8380 10
+			8343 10
 		}
 		buildings = {
 			infrastructure = 5
@@ -15,11 +14,11 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 		}
-		add_core_of = VAR
+		add_core_of = WMC
 	}
 
 	provinces = {
-		8380 8456 3432 8344 8267 4803 2812
-	}
+		5071 8259 8343 2523
+	}	
 	buildings_max_level_factor = 1.000
 }
