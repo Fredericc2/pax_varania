@@ -83,12 +83,17 @@ if = {
 		target = KIL
 		autonomous_state = autonomy_dominion
 	}
+	set_autonomy = {
+		target = ELU
+		autonomous_state = autonomy_dominion
+	}
 	else = {
 		puppet = SQP
 		puppet = SKT
 		puppet = LUT
 		puppet = NCT
 		puppet = WLU
+		puppet = ELU
 	}
 }
 
