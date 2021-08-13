@@ -44,3 +44,7 @@ WMC = {
 	color = rgb { 90 100 115 }
 	color_ui = rgb { 90 100 115 }
 	}
+RAG = {
+	color = rgb { 15 155 110 }
+	color_ui = rgb {15 155 110 }
+	}
