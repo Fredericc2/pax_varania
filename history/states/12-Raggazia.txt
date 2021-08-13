@@ -5,7 +5,7 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = VAR
+		owner = RAG
 		victory_points = {
 			2324 30
 		}
@@ -15,7 +15,7 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 		}
-		add_core_of = VAR
+		add_core_of = RAG
 	}
 
 	provinces = {

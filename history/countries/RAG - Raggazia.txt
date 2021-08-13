@@ -1,4 +1,4 @@
-capital = 7311
+capital = 7186
 
 # Starting tech
 set_technology = {
@@ -52,55 +52,6 @@ set_convoys = 20
 	}
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = NCT
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = SKT
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
-		target = LUT
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = SQP
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
-		target = WLU
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = KIL
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = ELU
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = RAG
-		autonomous_state = autonomy_dominion
-	}
-	else = {
-		puppet = SQP
-		puppet = SKT
-		puppet = LUT
-		puppet = NCT
-		puppet = WLU
-		puppet = ELU
-		puppet = RAG
-	}
-}
 
 set_politics = {
 	ruling_party = neutrality
@@ -110,10 +61,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
+	democratic = 15
 	fascism = 20
 	communism = 5
-	neutrality = 50
+	neutrality = 60
 }
 
 1948.1.1 = {
@@ -124,17 +75,17 @@ set_popularities = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 25
-		fascism = 20
+		democratic = 20
+		fascism = 10
 		communism = 5
-		neutrality = 50
+		neutrality = 65
 	}
 }
 
-create_country_leader = {
-	name = "King Boio"
+#create_country_leader = {
+	name = "Commander whatever the fuck"
 	desc = "."
-	picture = "gfx/leaders/VAR/Portrait_Varania_King_Boio.dds"
+	picture = "gfx/leaders/EWD/Portrait_East_Wendia_Commander_X.dds"
 	ideology = despotism
 	traits = {
 		#
