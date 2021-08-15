@@ -48,3 +48,7 @@ RAG = {
 	color = rgb { 10 110 60 }
 	color_ui = rgb { 10 110 60 }
 	}
+ESB = {
+	color = rgb { 220 205 15 }
+	color_ui = rgb { 220 205 15 }
+	}
