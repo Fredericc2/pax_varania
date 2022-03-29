@@ -20,9 +20,9 @@
  STATE_19:0 "merchants?"
  STATE_20:0 "Traiania"
  STATE_21:0 "Western Varania City"
- #STATE_22:0
- #STATE_23:0
- #STATE_24:0
+ STATE_22:0 "a"
+ STATE_23:0 "a"
+ STATE_24:0 "a"
  STATE_25:0 "Welt City"
  STATE_26:0 "Honey River Delta"
  STATE_27:0 "Port Lemko"
