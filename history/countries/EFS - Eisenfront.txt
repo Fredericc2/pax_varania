@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-1948.1.1 = {
+1946.1.1 = {
 	
 	#generic focuses
 	#complete_national_focus = army_effort
@@ -67,7 +67,7 @@ set_popularities = {
 	neutrality = 17
 }
 
-1948.1.1 = {
+1946.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1946.1.1"
@@ -75,10 +75,10 @@ set_popularities = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 25
-		fascism = 20
-		communism = 5
-		neutrality = 50
+		democratic = 3
+		fascism = 79
+		communism = 1
+		neutrality = 17
 	}
 }
 
