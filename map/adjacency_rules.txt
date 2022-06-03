@@ -1,8 +1,5 @@
-﻿From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
--1;-1;;-1;-1;-1;-1;-1;-1
-
-#Varania Canal
-adjacency_rule
+﻿#Varania Canal
+adjacency_rule =
 {
 	name = "VARANIA_CANAL"
 
